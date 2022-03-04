@@ -25,4 +25,4 @@ You can do that with something like this:
 $ docker run -i -t --volume `pwd`:/cwd mmarcon/mongosh <mongodb connection string>
 ```
 
-With that, anything `mongosh` will write to disk at path `/cwd` will and up in your current working directory.
+With that, anything `mongosh` will write to disk at path `/cwd` will end up in your current working directory.
